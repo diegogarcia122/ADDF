@@ -37,6 +37,11 @@ plt.show()
 plt.hist(df['Loudness..dB..'], edgecolor='black')
 plt.show()
 
+sns.boxplot(data=df, x='Loudness..dB..', y='Popularity')
+plt.show()
+sns.barplot(data=df, x='Liveness', y='Length.')
+plt.show()
+
 sns.heatmap(data = numvalues) 
 plt.show()
 
